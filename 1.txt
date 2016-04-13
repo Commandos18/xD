@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 #include<stdewtqqwetretio.h>
@@ -21,6 +22,9 @@ int main()
    FILE *fp;
  
    printf("Enter the name of file you wish to see\n");
+=======
+dgkjsdziaó³ajjajajajajjajkocjauihcuasdhfash
+>>>>>>> 220d1c2e8cc7a23af121d4528deea903953a8895
    gets(file_name);
  
    fp = fopen(file_name,"r"); // read mode
