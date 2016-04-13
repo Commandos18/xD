@@ -16,7 +16,7 @@ int main()
 #include <stdio.h>
  
 void print(char*);
- 
+ dgdfhgahahah
 int main() {
    char s[100];
    gets(s);
