@@ -1,0 +1,58 @@
+#include <stdio.h>
+ 
+#define BASE 3 /* podstawa systemu; NIE MOŻE BYĆ WIĘKSZA OD 16, ze względu na sposób prezentacji wyniku! */
+ 
+void rozwin(int liczba)
+{
+	if (liczba > 0)
+	{
+		/* liczba = k*BASE + cyfra, gdzie
+			k = liczba/BASE 
+		(część całkowita z dzielenia).
+		Zatem 
+			cyfra = liczba % BASE
+		więc w ten sposób możemy 
+		znaleźć ostatnią cyfrę rozwinięcia w bazie BASE.
+		Jednak przed wydrukowaniem tej cyfry, powinniśmy znaleźć 
+		rozwinięcie liczby "k"! */
+ 
+		/* Krok1: znajdź rozwinięcie liczby k */
+		rozwin(liczba/BASE); 
+ 
+		/* Krok 2: wypisz ostatnią cyfrę rozwinięcia */
+		printf("%X", liczba % BASE); /* wydruk cyfry w formacie hex */
+	}
+}
+ 
+int main(void)
+{
+	int liczba;
+ 
+	printf("Podaje liczbę do konwersji:\n");
+	scanf("%d", &liczba);
+	printf("(%d)_10 = (", liczba);
+ 
+	/* kilka przypadków szczegónych */
+	if (liczba == 0)
+	{
+		/* rozwinięcie zera jest zawsze zerem */
+		printf("0\n");
+		return(0);
+	}
+	if (liczba < 0)
+	{
+		/* liczbę ujemną musimy poprzedzić znakiem "-" */
+		printf("-");
+		/* wykonujemy dalej rozwinięcie liczby dodatniej */
+		liczba = -liczba;
+	}
+ 
+	/* teraz na pewno "liczba" jest dodatnia, 
+	przystępujemy do rozwinięcia */
+ 
+	rozwin(liczba);
+ 
+	printf(")_%d\n", BASE);
+ 
+	return(0);
+}
