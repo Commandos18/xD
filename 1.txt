@@ -1,6 +1,6 @@
 
 
-#includkjsbgdsgaagurbvguredfds
+#include<stdio.h>
 #include <stringcbfdhg.h>
  
 int main()
