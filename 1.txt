@@ -13,7 +13,7 @@
 int main()
 {
    char ch, file_name[25];
-   FILE *fp;
+
  
    printf("Enter the name of file you wish to see\n");
    gets(file_name);
