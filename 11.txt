@@ -1,0 +1,49 @@
+
+
+#include <stdio.h>
+ 
+int main()
+{
+   char a[80];
+ 
+   gets(a);
+ 
+   printf("%s\n", a);
+ 
+   return 0;
+}
+
+#include <stdio.h>
+ 
+void print(char*);
+ 
+int main() {
+   char s[100];
+   gets(s);
+   print(s);
+   return 0;
+}
+ 
+void print(char *t) {
+   if (*t == '\0')
+      return;
+   printf("%c", *t);
+   print(++t);
+}
+
+#include <stdio.h>
+#include <string.h>
+ 
+int main() {
+   char s[100];
+   int c, l;
+ 
+   gets(s);
+ 
+   l = strlen(s);
+ 
+   for (c = 0; c < l; c++)
+      printf("%c", s[c]);
+ 
+   return 0;
+}
