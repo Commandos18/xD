@@ -1,0 +1,25 @@
+include <stdio.h>
+#define N 32
+int main(void)
+{
+	char nazwapliku[N]; /* bufor na nazwę pliku */
+	FILE *fp;
+	int c;
+ 
+	printf("Podaj nazwe pliku (uwaga: mniej niż %d znaki):\n", N);
+	scanf("%s", nazwapliku);
+ 
+	if( (fp = fopen(nazwapliku,"r")) == NULL) /* czy dało się otworzyć? */
+	{
+		/* komunikat o błędzie wypiszemy na stderr */
+		fprintf(stderr,"! Nie moge otworzyc pliku %s\n", nazwapliku);
+		return(-1); /* kończymy program, zwracając nietypową wartość */
+	}
+ 
+	/* kopiujemy znak po znaku, aż do napotkania końca pliku */
+	while( (c = getc(fp)) != EOF )
+		putc(c, stdout); /* równoważnie: putchar(c) */
+ 
+	fclose(fp);
+	return(0);
+}
