@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <string.h>
- 
+ dre
 int main()
 {
    char string[100];
