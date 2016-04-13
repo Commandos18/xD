@@ -24,6 +24,5 @@ int main()
       printf("%d\n",num);         
    }
  
-   getch();
-   return 0;
+ ZXDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 }

@@ -1,7 +1,12 @@
 
 
+<<<<<<< HEAD
 #include <karolex.h>
 #include <stdlib.h>
+=======
+#include <stdio.h>
+#include <XD.h>
+>>>>>>> c8c015ebf82080182c7fd1e623bf21df714ad5cb
  
 int main()
 {
