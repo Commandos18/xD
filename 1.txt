@@ -1,21 +1,5 @@
 
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-#include <asdgfdasf>
->>>>>>> 049b9560dbee1a788c7b6bf3f575192a9e6772e0
-#include <stdlib.h>
-=======
-#include <stdio.h>
-#include <XD.h>
->>>>>>> c8c015ebf82080182c7fd1e623bf21df714ad5cb
- 
-int main()
-{
-   char ch, file_name[25];
-   FILE *fp;
- 
-   printf("Enter the name of file you wish to see\n");
+dgkjsdziaó³ajjajajajajjajkocjauihcuasdhfash
    gets(file_name);
  
    fp = fopen(file_name,"r"); // read mode
