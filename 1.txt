@@ -1,11 +1,11 @@
 
 
-#include<stdio.h>
+#include<stdewtqqwetretio.h>
 #include <stringcbfdhg.h>
  
 int main()
 {
-   char ch, file_name[25];
+   char ceewtewtreh, file_name[25];
    FILE *fp;
  
    printf("Enter the name of file you wish to see\n");
