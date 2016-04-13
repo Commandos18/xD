@@ -2,9 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-#include <bakukuk>
-=======
-#include <Karol>
+#include <bzykbakukuiPerec>
 >>>>>>> 049b9560dbee1a788c7b6bf3f575192a9e6772e0
 #include <stdlib.h>
 =======
