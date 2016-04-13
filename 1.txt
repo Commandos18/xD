@@ -1,7 +1,19 @@
 
 
+<<<<<<< HEAD
 #include<stdewtqqwetretio.h>
 #include <stringcbfdhg.h>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+#include <bzykbakukuiPerec>
+>>>>>>> 049b9560dbee1a788c7b6bf3f575192a9e6772e0
+#include <stdlib.h>
+=======
+#include <stdio.h>
+#include <XD.h>
+>>>>>>> c8c015ebf82080182c7fd1e623bf21df714ad5cb
+>>>>>>> 3ac26c8587bf927b874f8fe686ebbfb8d386aecc
  
 int main()
 {

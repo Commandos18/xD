@@ -1,7 +1,12 @@
 
 
+<<<<<<< HEAD
 #include <stdioooooio.h>
 #include <condddio.h>
+=======
+nuppapa
+#include <conio.h>
+>>>>>>> 3ac26c8587bf927b874f8fe686ebbfb8d386aecc
 #include <stdlib.h>
  
 int main()
@@ -24,6 +29,5 @@ int main()
       printf("%d\n",num);         
    }
  
-   getch();
-   return 0;
+ ZXDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 }
