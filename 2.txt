@@ -1,6 +1,6 @@
 
 
-#include <stdio.h>
+nuppapa
 #include <conio.h>
 #include <stdlib.h>
  
